@@ -15,6 +15,7 @@
 		789ED1DA2B6614130089B995 /* ProtocolOrientedProgramming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789ED1D92B6614130089B995 /* ProtocolOrientedProgramming.swift */; };
 		789ED1DC2B66B1170089B995 /* AutoClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789ED1DB2B66B1170089B995 /* AutoClosure.swift */; };
 		78EFA28C2B69E33A00054959 /* Defer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EFA28B2B69E33A00054959 /* Defer.swift */; };
+		78EFA28E2B6A63EC00054959 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EFA28D2B6A63EC00054959 /* Enum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		789ED1D92B6614130089B995 /* ProtocolOrientedProgramming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolOrientedProgramming.swift; sourceTree = "<group>"; };
 		789ED1DB2B66B1170089B995 /* AutoClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoClosure.swift; sourceTree = "<group>"; };
 		78EFA28B2B69E33A00054959 /* Defer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defer.swift; sourceTree = "<group>"; };
+		78EFA28D2B6A63EC00054959 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				789ED1D92B6614130089B995 /* ProtocolOrientedProgramming.swift */,
 				789ED1DB2B66B1170089B995 /* AutoClosure.swift */,
 				78EFA28B2B69E33A00054959 /* Defer.swift */,
+				78EFA28D2B6A63EC00054959 /* Enum.swift */,
 			);
 			path = Concept;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				789ED1DA2B6614130089B995 /* ProtocolOrientedProgramming.swift in Sources */,
 				789ED1AB2B656DD50089B995 /* ViewController.swift in Sources */,
 				789ED1A92B656DD50089B995 /* AppDelegate.swift in Sources */,
+				78EFA28E2B6A63EC00054959 /* Enum.swift in Sources */,
 				78EFA28C2B69E33A00054959 /* Defer.swift in Sources */,
 				789ED1DC2B66B1170089B995 /* AutoClosure.swift in Sources */,
 			);
