@@ -10,7 +10,7 @@ import Foundation
 private class EnumExample {
     
     // Simple enum represent different types of fruits
-    enum Fruits {
+    enum Fruit {
         case apple
         case banana
         case orange
@@ -27,7 +27,7 @@ private class EnumExample {
     
     // Enum wiht raw value
     enum Direction: String {
-        case nort = "N"
+        case north = "N"
         case south = "S"
         case east = "E"
         case west = "W"
@@ -55,5 +55,31 @@ private class EnumExample {
                 return "Saturday"
             }
         }
+    }
+    
+    func usage() {
+        //
+        let favoriteFruit: Fruit = .banana
+        print("My favorite fruit is \(favoriteFruit)")
+        
+        //
+        let myPet: Animal = .dog(name: "tommy", age: 5)
+        switch myPet {
+        case .dog(name: let name, age: let age):
+            print("I have a dog named \(name) who is \(age) years old.")
+        case .cat(name: let name, color: let color):
+            print("I have a cat named \(name) with \(color) fur.")
+        case .brid(species: let species):
+            print("I have a bird of species \(species).")
+        }
+        
+        
+        //
+        let currentDirection: Direction = .north
+        print("The current direction is \(currentDirection.rawValue)")
+        
+        //
+        let selectedDay: Weekday = .sunday
+        print(selectedDay.description())
     }
 }
