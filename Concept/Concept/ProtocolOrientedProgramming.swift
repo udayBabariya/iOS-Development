@@ -52,7 +52,7 @@ enum Car: SoundMaker {
 }
 
 //Usage
-func usage() {
+fileprivate func usage() {
     let myDog = Dog()
     let myBird = Bird()
     let myCar = Car.sportsCar

@@ -57,7 +57,7 @@ private class EnumExample {
         }
     }
     
-    func usage() {
+    fileprivate func usage() {
         //
         let favoriteFruit: Fruit = .banana
         print("My favorite fruit is \(favoriteFruit)")

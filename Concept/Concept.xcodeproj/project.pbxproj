@@ -17,6 +17,7 @@
 		78EFA28C2B69E33A00054959 /* Defer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EFA28B2B69E33A00054959 /* Defer.swift */; };
 		78EFA28E2B6A63EC00054959 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EFA28D2B6A63EC00054959 /* Enum.swift */; };
 		78EFA2942B6A800600054959 /* PrivateSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EFA2932B6A800600054959 /* PrivateSet.swift */; };
+		78EFA2962B6B7C9000054959 /* PropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EFA2952B6B7C9000054959 /* PropertyWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		78EFA28B2B69E33A00054959 /* Defer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defer.swift; sourceTree = "<group>"; };
 		78EFA28D2B6A63EC00054959 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 		78EFA2932B6A800600054959 /* PrivateSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateSet.swift; sourceTree = "<group>"; };
+		78EFA2952B6B7C9000054959 /* PropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				78EFA28B2B69E33A00054959 /* Defer.swift */,
 				78EFA28D2B6A63EC00054959 /* Enum.swift */,
 				78EFA2932B6A800600054959 /* PrivateSet.swift */,
+				78EFA2952B6B7C9000054959 /* PropertyWrapper.swift */,
 			);
 			path = Concept;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				78EFA28E2B6A63EC00054959 /* Enum.swift in Sources */,
 				78EFA28C2B69E33A00054959 /* Defer.swift in Sources */,
 				789ED1DC2B66B1170089B995 /* AutoClosure.swift in Sources */,
+				78EFA2962B6B7C9000054959 /* PropertyWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
