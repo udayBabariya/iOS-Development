@@ -13,6 +13,7 @@
 		789ED1CF2B65732A0089B995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789ED1CD2B65732A0089B995 /* Main.storyboard */; };
 		78E9C5BE2C3F6A8B00580859 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9C5BD2C3F6A8B00580859 /* Factory.swift */; };
 		78E9C5C02C3F6F4500580859 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9C5BF2C3F6F4500580859 /* Builder.swift */; };
+		78E9C5C22C3F719100580859 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9C5C12C3F719100580859 /* Decorator.swift */; };
 		78EFA2902B6A697F00054959 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EFA28F2B6A697F00054959 /* Singleton.swift */; };
 		78EFA2922B6A6BB000054959 /* DesignPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EFA2912B6A6BB000054959 /* DesignPatterns.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		789ED1D02B65732A0089B995 /* DesignPatterns.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesignPatterns.entitlements; sourceTree = "<group>"; };
 		78E9C5BD2C3F6A8B00580859 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		78E9C5BF2C3F6F4500580859 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		78E9C5C12C3F719100580859 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 		78EFA28F2B6A697F00054959 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		78EFA2912B6A6BB000054959 /* DesignPatterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatterns.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +88,7 @@
 		789ED1D72B65751F0089B995 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				78E9C5C12C3F719100580859 /* Decorator.swift */,
 			);
 			path = Structural;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				789ED1C82B6573280089B995 /* AppDelegate.swift in Sources */,
 				78E9C5BE2C3F6A8B00580859 /* Factory.swift in Sources */,
 				78E9C5C02C3F6F4500580859 /* Builder.swift in Sources */,
+				78E9C5C22C3F719100580859 /* Decorator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
