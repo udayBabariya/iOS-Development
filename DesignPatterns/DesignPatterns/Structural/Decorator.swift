@@ -78,7 +78,7 @@ class WhippedCreamDecorator: CoffeeDecorator {
 
 //Use the Decorators to Create Different Coffees:
 // Simple coffee
-func usage(){
+private func usage(){
     var coffee: Coffee = SimpleCoffee()
     print("\(coffee.description()): $\(coffee.cost())")  // Output: Simple coffee: $5.0
     
