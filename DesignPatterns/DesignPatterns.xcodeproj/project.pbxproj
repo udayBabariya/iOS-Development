@@ -16,6 +16,7 @@
 		78E9C5C22C3F719100580859 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9C5C12C3F719100580859 /* Decorator.swift */; };
 		78E9C5C42C3F732700580859 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9C5C32C3F732700580859 /* Adapter.swift */; };
 		78E9C5C62C3F733500580859 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9C5C52C3F733500580859 /* Facade.swift */; };
+		78E9C5C82C3F74D000580859 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9C5C72C3F74D000580859 /* Observer.swift */; };
 		78EFA2902B6A697F00054959 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EFA28F2B6A697F00054959 /* Singleton.swift */; };
 		78EFA2922B6A6BB000054959 /* DesignPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EFA2912B6A6BB000054959 /* DesignPatterns.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		78E9C5C12C3F719100580859 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 		78E9C5C32C3F732700580859 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		78E9C5C52C3F733500580859 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		78E9C5C72C3F74D000580859 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		78EFA28F2B6A697F00054959 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		78EFA2912B6A6BB000054959 /* DesignPatterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatterns.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +104,7 @@
 		789ED1D82B6575290089B995 /* Behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				78E9C5C72C3F74D000580859 /* Observer.swift */,
 			);
 			path = Behavioral;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78E9C5C62C3F733500580859 /* Facade.swift in Sources */,
+				78E9C5C82C3F74D000580859 /* Observer.swift in Sources */,
 				789ED1CA2B6573280089B995 /* ViewController.swift in Sources */,
 				78E9C5C42C3F732700580859 /* Adapter.swift in Sources */,
 				78EFA2902B6A697F00054959 /* Singleton.swift in Sources */,
