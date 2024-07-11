@@ -7,6 +7,10 @@
 
 import Foundation
 
+
+// Generics in Swift allow us to write functions and types that can work with any type. This is achieved by defining placeholder types that can be specified when the function or type is used. Generics enable us to write flexible and reusable code without sacrificing type safety.
+
+
 // Example of Generic function
 fileprivate func swapValues<T> (_ a: inout T, _ b: inout T) {
     let temp = a
