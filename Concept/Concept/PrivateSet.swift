@@ -7,6 +7,8 @@
 
 import Foundation
 
+//In Swift, the private(set) access control modifier is used to restrict the ability to modify a property or variable to within its defining file, while still allowing read access from other files. This means that the property can be read from outside its defining file, but can only be modified within the file it is defined in.
+
 private class PrivateSet {
     
      class Person {

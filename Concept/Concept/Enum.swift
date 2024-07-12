@@ -7,6 +7,8 @@
 
 import Foundation
 
+// an enumeration (or enum) is a type that consists of a group of related values. Enums enable you to define a common type for a group of related values and work with those values in a type-safe way within your code.
+
 private class EnumExample {
     
     // Simple enum represent different types of fruits
