@@ -16,6 +16,7 @@
 		789ED1B82B656E230089B995 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789ED1B72B656E230089B995 /* Generics.swift */; };
 		789ED1DA2B6614130089B995 /* ProtocolOrientedProgramming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789ED1D92B6614130089B995 /* ProtocolOrientedProgramming.swift */; };
 		789ED1DC2B66B1170089B995 /* AutoClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789ED1DB2B66B1170089B995 /* AutoClosure.swift */; };
+		78B77F4D2C40B7480096B0B0 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B77F4C2C40B7480096B0B0 /* AsyncAwait.swift */; };
 		78EFA28C2B69E33A00054959 /* Defer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EFA28B2B69E33A00054959 /* Defer.swift */; };
 		78EFA28E2B6A63EC00054959 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EFA28D2B6A63EC00054959 /* Enum.swift */; };
 		78EFA2942B6A800600054959 /* PrivateSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EFA2932B6A800600054959 /* PrivateSet.swift */; };
@@ -34,6 +35,7 @@
 		789ED1B72B656E230089B995 /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
 		789ED1D92B6614130089B995 /* ProtocolOrientedProgramming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolOrientedProgramming.swift; sourceTree = "<group>"; };
 		789ED1DB2B66B1170089B995 /* AutoClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoClosure.swift; sourceTree = "<group>"; };
+		78B77F4C2C40B7480096B0B0 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		78EFA28B2B69E33A00054959 /* Defer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defer.swift; sourceTree = "<group>"; };
 		78EFA28D2B6A63EC00054959 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 		78EFA2932B6A800600054959 /* PrivateSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateSet.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				78EFA2952B6B7C9000054959 /* PropertyWrapper.swift */,
 				7898E9E82B7E31A300D30A39 /* Actor.swift */,
 				781EADC12B7F10B5005320F3 /* DependencyInjection.swift */,
+				78B77F4C2C40B7480096B0B0 /* AsyncAwait.swift */,
 			);
 			path = Concept;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				789ED1B82B656E230089B995 /* Generics.swift in Sources */,
 				789ED1DA2B6614130089B995 /* ProtocolOrientedProgramming.swift in Sources */,
 				78EFA2942B6A800600054959 /* PrivateSet.swift in Sources */,
+				78B77F4D2C40B7480096B0B0 /* AsyncAwait.swift in Sources */,
 				789ED1AB2B656DD50089B995 /* ViewController.swift in Sources */,
 				789ED1A92B656DD50089B995 /* AppDelegate.swift in Sources */,
 				78EFA28E2B6A63EC00054959 /* Enum.swift in Sources */,
